@@ -166,7 +166,7 @@ body {
   background-color: var(--background-color);
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -175,7 +175,7 @@ body {
 }
 .link-mail-footer,
 .link-tel-footer {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -183,7 +183,7 @@ body {
   color: var(--contact-footer-color);
 }
 .link-address-footer {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;

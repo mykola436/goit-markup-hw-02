@@ -70,20 +70,17 @@ body {
 .header-link-active {
   color: var(--active-page-color);
 }
-.link-tel-header,
-.link-mail-header {
+.link-contacts-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--contact-header-color);
 }
-.link-mail-header:hover,
-.link-tel-header:hover {
+.link-contacts-header:hover {
   color: var(--accent-color-two);
 }
-.link-mail-header:focus,
-.link-tel-header:focus {
+.link-contacts-header:focus {
   color: var(--accent-color-two);
 }
 /* ------HERO------- */
@@ -173,8 +170,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-color-three);
 }
-.link-mail-footer,
-.link-tel-footer {
+.link-contacts-footer {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -190,14 +186,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--address-footer-color);
 }
-.link-mail-footer:hover,
-.link-tel-footer:hover,
+.link-contacts-footer:hover,
 .link-address-footer:hover {
   color: var(--accent-color-two);
 }
-
-.link-mail-footer:focus,
-.link-tel-footer:focus,
+.link-contacts-footer:focus,
 .link-address-footer:focus {
   color: var(--accent-color-two);
 }
@@ -213,10 +206,6 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.filter-btn-one {
-  background: var(--btn-color-one);
-  color: var(--button-text-color);
 }
 .portfolio-btn-filter:hover,
 .portfolio-btn-filter:focus {
